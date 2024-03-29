@@ -24,12 +24,12 @@ public class MyBase extends Base{
 
      public void night() {
      	if(state=="밤") {
-             System.out.println("낮에는 열심히 수업듣자");
+             System.out.println("밤에는 숙면");
          	}
      }
      
      public void afternoon(){
-     	if(state=="낮") {
+     	if(state=="오후") {
      		System.out.println("오후도 낮과 마찬가지로 공부해야 합니다.");
          	}
      	
